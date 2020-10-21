@@ -1,0 +1,31 @@
+.hero {
+	background-color: #083D77;
+	padding-bottom: 50vh;
+	display: flex;
+	align-items: center;
+}
+
+.hero .hero-section-title {
+	color: white;
+	padding-top: 10vh;
+	padding-right: 5vw;
+	padding-left: 2vw;
+}
+
+.hero .hero-section-text {
+	color: white;
+	padding-top: 1vh;
+	padding-right: 5vw;
+	padding-left: 4vw;
+}
+
+.top-bar {
+	background-color: #083D77;
+	color: white;
+}
+.top-bar .menu {
+	background-color: #083D77;
+}
+.top-bar .menu a {
+	color: white
+}
