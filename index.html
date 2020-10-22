@@ -10,16 +10,21 @@
     <link rel="stylesheet" href="assets/css/app.css">
   </head>
 <body>
-  <nav class="top-bar">
-    <div class="top-bar-left">
-      <ul class="dropdown menu" data-dropdown-menu>
-        <li class="menu-text">Bryson Tang</li>
-        <li><a href="#hero">About Me</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-  </nav>  
+
+  <div data-sticky-container>
+    <div data-sticky data-options="marginTop:0;" style="width:100%">
+      <div class="top-bar">
+        <div class="top-bar-left">
+          <ul class="dropdown menu" data-dropdown-menu>
+            <li class="menu-text">Bryson Tang</li>
+            <li><a href="#hero">About Me</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>  
+  </div>
 
 
   <section id="hero" class="hero">
@@ -30,10 +35,25 @@
       <div class="row hero-section-text">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
       </div>
+      <div class="row hero-seciotn-links">
+        <a href="https://www.linkedin.com/in/bryson-t-datascience/">
+          <img class="thumbnail" src="assets/img/linkedin.png" alt="LinkedIn Logo">
+        </a>
+        <a href="https://github.com/Bryt12">
+          <img class="thumbnail" src="assets/img/github.png" alt="GitHub Logo">
+        </a>
+        <a href="https://www.kaggle.com/brysontang">
+          <img class="thumbnail" src="assets/img/kaggle.png" alt="Kaggle Logo">
+        </a>
+      </div>
     </div>
   </section>
 
+
+
   <script src="assets/js/vendor.js"></script>
   <script src="assets/js/foundation.js"></script>
+  <script src="assets/js/app.js"></script>
+
 </body>
 </html>
