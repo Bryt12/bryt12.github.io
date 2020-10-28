@@ -18,7 +18,7 @@
           <ul class="dropdown menu" data-dropdown-menu>
             <li class="menu-text">Bryson Tang</li>
             <li><a href="#hero">About Me</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </div>
@@ -28,12 +28,12 @@
 
 
   <section id="hero" class="hero">
-    <div class="">
+    <div>
       <div class="row hero-section-title">
         <h2>Welcome to Bryson's Portfolio</h2>
       </div>
       <div class="row hero-section-text">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        <p>I have been interested in pursuing the field of Data Science ever since I was a Junior in High School and someone told me I could combine my two loves into a career, math and programming. Ever since I have gone out of my way to learn and constantly be thinking about data and how it plays a part in this rapidly changing world. When working on data science project, I am always of the philosophy that although machine learning models are cool, they come way after an in depth understanding of the data through graphs and pure statistics. I have a very strong passion for data and see love getting my hands dirty in trying to understand the structure and patterns in the data.</p>
       </div>
       <div class="row hero-seciotn-links">
         <a href="https://www.linkedin.com/in/bryson-t-datascience/">
@@ -49,7 +49,70 @@
     </div>
   </section>
 
+  <section id="makeovermonday" class="makeovermonday">
+    <h2 class="section-title">Makeover Monday</h2>
 
+  </section>
+
+  <section id="projects" class="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <hr class="hr-text" data-content="2020">
+
+    <div class="media-object stack-for-small">
+      <div class="media-object-section">
+        <div class="thumbnail">
+          <img src="assets/img/media-object/avatar-1.jpg">
+        </div>
+      </div>
+      <div class="media-object-section">
+        <h5 class="project-title">ML to detect board health - Dell EMC</h5>
+        <h6>Major Qualifying Project</h6>
+        <p>At WPI every student must complete an MQP as a senior to graduate. My MQP is with Dell EMC and we worked on analyzing board logs in order to predict future failures and uncover hidden reasons why past boards had been failing. We utilized data mining, feature selected, and machine learning in order to do this. Our team consisted of 4 WPI students, a WPI professor, and a team of Dell EMC engineers. This project was a great learning experience as it was a data science project that we got to plan all the way from data cleaning to model tuning. Our team used pandas on top of Python in order to clean and parse the data and we used Scikit to build the machine learning models.</p>
+        <p>This data set was just raw data and we experienced data in json format, table form, and unstructured key value pairs. This meant that we had to program a lot of parsing tools in order to extract the patterns from the raw data. This was very exciting as we got to utilize many different data parsing techniques and some complex regex.
+        </p>
+      </div>
+    </div>
+
+    <div class="media-object stack-for-small">
+      <div class="media-object-section">
+        <div class="thumbnail">
+          <img src="assets/img/media-object/avatar-1.jpg">
+        </div>
+      </div>
+      <div class="media-object-section">
+        <h5 class="project-title">COVID-19 Dataset Aggregation - Worcester Polytechnic Institute</h5>
+        <h6>Summer Research Intern</h6>
+        <p>While doing a project in my Machine Learning class on COVID-19, my Professor and I noticed that there was a sever lack of any collections of data sets that had demographic in relation to the pandemic. (travel data, weather, health care infrastructure, tourism rates) After attending Professor Yousefi's office hours to ask what direction I should take my Data Science career, he offered the opportunity of a summer internship to fill in this void. After writing up a project proposal I spent the summer collecting, cleaning, and architecturing this data set.</p>
+        <p data-toggle="covid"><a>Expand</a></p>
+        <div id="covid" data-toggler=".is-hidden" data-animate="hinge-in-from-top spin-out">
+          <p>This project was a great learning experience for me as it allowed me to own and define a project from the ground up. First I researched various Government/academic resources (UN, CDC, and ) that collect relevant demographic information. After finding the data sets I had to architect how I wanted the data sets to be connected. Then, after I had collected all the relevant data sets I wrote python script that utilizing pandas to clean and structure the data how I wanted it. From there I created a MySQL database on an academic server and hosted the data through an express API. I then designed and programmed a website to call this API and allow the user to download and filter the data. Later, I uploaded the data to kaggle in hopes to have a further outreach. I hope that this data set can help the research community better understand how COVID-19 was properly handled (or not) and how to be better prepare for a situation like this in the future.</p>
+          <p>The kaggle data set can be found <a href="">here</a></p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="hr-text" data-content="2019 - TODO">
+
+
+    <hr class="hr-text" data-content="2018 - TODO">
+
+    <hr class="hr-text" data-content="2017">
+
+    <div class="media-object stack-for-small">
+      <div class="media-object-section">
+        <div class="thumbnail">
+          <img src="assets/img/media-object/avatar-1.jpg">
+        </div>
+      </div>
+      <div class="media-object-section">
+        <h5 class="project-title">Senior Project - Nashoba Valley Technical High School </h5>
+        <h6>Summer Research Intern</h6>
+        <p>During my senior year of high school I knew that I wanted to pursue the field of data science. For my senior project I worked directly with the school administration.</p>
+        <p>The kaggle data set can be found <a href="">here</a></p>
+      </div>
+    </div>
+  </section>
 
   <script src="assets/js/vendor.js"></script>
   <script src="assets/js/foundation.js"></script>
@@ -57,3 +120,4 @@
 
 </body>
 </html>
+ 
