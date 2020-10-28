@@ -686,35 +686,39 @@ section:before {
   margin-left: 15vw;
   margin-right: 15vw;
 }
+/* line 81, ../sass/screen.scss */
+.orbit a {
+  color: white;
+}
 
 @media screen and (max-width: 39.9375em) {
-  /* line 83, ../sass/screen.scss */
+  /* line 87, ../sass/screen.scss */
   .no-js .top-bar {
     display: none;
   }
 }
 @media print, screen and (min-width: 40em) {
-  /* line 88, ../sass/screen.scss */
+  /* line 92, ../sass/screen.scss */
   .no-js .title-bar {
     display: none;
   }
 }
-/* line 92, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 [data-sticky] {
   width: 100%;
 }
 
-/* line 95, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 .sticky-container {
   z-index: 5;
 }
 
-/* line 99, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 .project-title {
   margin-bottom: 0px;
 }
 
-/* line 104, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .hr-text {
   margin-left: 15vw;
   margin-right: 15vw;
@@ -728,7 +732,7 @@ section:before {
   opacity: 0.5;
 }
 
-/* line 117, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 .hr-text:before {
   content: '';
   background: linear-gradient(to right, transparent, #818078, transparent);
@@ -739,7 +743,7 @@ section:before {
   height: 1px;
 }
 
-/* line 126, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 .hr-text:after {
   content: attr(data-content);
   position: relative;
@@ -751,12 +755,12 @@ section:before {
   background-color: #fcfcfa;
 }
 
-/* line 137, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 html {
   scroll-behavior: smooth;
 }
 
-/* line 141, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 .is-hidden {
   visibility: hidden;
 }
