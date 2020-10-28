@@ -81,7 +81,7 @@
         <h5 class="project-title">COVID-19 Dataset Aggregation - Worcester Polytechnic Institute</h5>
         <h6>Summer Research Intern</h6>
         <p>While doing a project in my Machine Learning class on COVID-19, my Professor and I noticed that there was a sever lack of any collections of data sets that had demographic in relation to the pandemic. (travel data, weather, health care infrastructure, tourism rates) After attending Professor Yousefi's office hours to ask what direction I should take my Data Science career, he offered the opportunity of a summer internship to fill in this void. After writing up a project proposal I spent the summer collecting, cleaning, and architecturing this data set.</p>
-        <p data-toggle="covid"><a>Expand</a></p>
+        <!-- <p data-toggle="covid"><a>Expand</a></p> -->
         <div id="covid" data-toggler=".is-hidden" data-animate="hinge-in-from-top spin-out">
           <p>This project was a great learning experience for me as it allowed me to own and define a project from the ground up. First I researched various Government/academic resources (UN, CDC, and ) that collect relevant demographic information. After finding the data sets I had to architect how I wanted the data sets to be connected. Then, after I had collected all the relevant data sets I wrote python script that utilizing pandas to clean and structure the data how I wanted it. From there I created a MySQL database on an academic server and hosted the data through an express API. I then designed and programmed a website to call this API and allow the user to download and filter the data. Later, I uploaded the data to kaggle in hopes to have a further outreach. I hope that this data set can help the research community better understand how COVID-19 was properly handled (or not) and how to be better prepare for a situation like this in the future.</p>
           <p>The kaggle data set can be found <a href="">here</a></p>
@@ -89,10 +89,35 @@
       </div>
     </div>
 
-    <hr class="hr-text" data-content="2019 - TODO">
+    <div class="media-object stack-for-small">
+      <div class="media-object-section">
+        <div class="">
+          <img src="assets/img/media-object/FIT.png">
+        </div>
+      </div>
+      <div class="media-object-section">
+        <h5 class="project-title">Project Eve - Florida Institute of Technology</h5>
+        <h6>Data Analyst</h6>
+        <p>When a good friend from high school reached out to me asking if I was interesting in helping with a research project, I didn't even think twice about it. Their team was working on an aerospace project and had flight data that had to be analyzed after each flight. My contribution towards the project was an R script that took in a CSV file and returned a graph with a line of best fit on the decent. I had to work with the team to understand how to process the data so that it could automatically tell when the decent happened. Once it knew the time period of the decent, the script would fit a linear regression then the team used the slope to tell the decent velocity and the R-squared value to tell the effectiveness of the parachute. This allowed the team to spend less time graphing and cleaning the data and more time to interpret the results.</p>
+      </div>
+    </div>
 
+    <hr class="hr-text" data-content="2019">
 
-    <hr class="hr-text" data-content="2018 - TODO">
+    <div class="media-object stack-for-small">
+      <div class="media-object-section">
+        <div class="">
+          <img src="assets/img/media-object/xin.png">
+        </div>
+      </div>
+      <div class="media-object-section">
+        <h5 class="project-title">Raising Mental Health Awareness in Hangzhou, China - Xin Foundation</h5>
+        <h6>Interactive Qualifying Project</h6>
+        <p>Junior year WPI students are given the opportunity to travel abroad to complete a project to help the local communities. I was fortunate enough to be able to travel to Hangzhou China and complete a project with the Xin Foundation. The goal of our project to was to help the Xin Foundation understand and work with the stigma of mental health in China and address it with a WeChat mini program. In order to achieve this we created a survey and spread it around the local college we were staying at. Building this survey was a learning experience as we got to understand that the way you ask your questions can influence the outcome, so it's important to take that into account. On top of this we had to work with local students to translate the survey and still hold the non-biasness of it. Working with the Xin foundation and the students of HDU I got to experience working in a completely different culture from my own and really began to appreciate the Chinese work culture.</p>
+      </div>
+    </div>
+
+    <!-- <hr class="hr-text" data-content="2018 - TODO"> -->
 
     <hr class="hr-text" data-content="2017">
 
@@ -103,13 +128,44 @@
         </div>
       </div>
       <div class="media-object-section">
-        <h5 class="project-title">Senior Project - Nashoba Valley Technical High School </h5>
-        <h6>Summer Research Intern</h6>
-        <p>During my senior year of high school I knew that I wanted to pursue the field of data science. For my senior project I worked directly with the school administration.</p>
-        <p>The kaggle data set can be found <a href="">here</a></p>
+        <h5 class="project-title">Predicting Number of Students Year to Year - Nashoba Valley Technical High School </h5>
+        <h6>Senior Project</h6>
+        <p>During my senior year of high school I knew that I wanted to pursue the field of data science. For my senior project I worked directly with the school administration on how their data could benefit their decision making. Due to the fact that I went to a technical high school the number of student year to year is not as easy as looking at the number of eighth graders. This is because there were 8 sending towns and 8th graders had to choose not to continue the public school track in order to go to Nashoba Tech. The school granted me data on the number of students from the sending towns and I began using python to parse this data. Unfamiliar with regressions at the time, my best guess for predicting the next number was tailor series as I had just learned about that concept in AP Calculus. My model predicted that proportion of students coming from each sending town would increase, but unfortunately that over all number of students would decrease. After further investigation I found that the student population of the sending towns was on the decrease thus they should focus on marketing in order to drawn more students in.</p>
+      </div>
+    </div>
+
+        <hr class="hr-text" data-content="2016">
+
+    <div class="media-object stack-for-small">
+      <div class="media-object-section">
+        <div class="">
+          <img src="assets/img/media-object/nt.png">
+        </div>
+      </div>
+      <div class="media-object-section">
+        <h5 class="project-title">Depth First Maze Solver - Nashoba Valley Technical High School </h5>
+        <h6>Junior Project</h6>
+        <p>By my junior year I knew that I wanted to do something in the field of data science as a career, so for my senior project I did research into Artificial Intelligence. First I created a maze program in Java that allowed the player to step their dot through a maze. Then I programmed a search agent to work on top of this. My first attempt was to create an agent that stepped through the maze and had a memory of where it had been and a probability that the end was in a certain direction so it could pick the best path to travel when it got to forks. The problem this agent faced was that it would go all over the map trying to decided the best path to take and never made a real decision. My next attempt was a depth-first agent, this worked extremely well and after watching it solve the maze for the first time I was filled with the feeling of accomplishment</p>
+      </div>
+    </div>
+
+    <hr class="hr-text" data-content="2015">
+
+    <div class="media-object stack-for-small">
+      <div class="media-object-section">
+        <div class="">
+          <img src="assets/img/media-object/biscom.png">
+        </div>
+      </div>
+      <div class="media-object-section">
+        <h5 class="project-title">VeroSync User Report - Biscom </h5>
+        <h6>Intern</h6>
+        <p>My first project at Biscom was querying the VeroSync databases with SQL in order to build a dashboard to tell the story of user usage. For this project I had to learn SQL and understand what a data base is and how to query it. While working on this project I worked with the software engineers in order to understand the data and how to interpret it. Once I had created the charts I thought told a story I created a PowerPoint presentation and presented my findings to the President of the company and the software engineers working on VeroSync. This was my first introduction to data, and ever since I have had an affinity for data and the visualization of it.</p>
       </div>
     </div>
   </section>
+
+
 
   <section id="makeovermonday" class="makeovermonday">
     <h2 class="section-title">Makeover Monday</h2>
@@ -122,7 +178,6 @@
         <ul class="orbit-container">
           <li class="is-active orbit-slide">
             <figure class="orbit-figure">
-              <!-- <img class="orbit-image" src="https://placehold.it/1200x600/999?text=Slide-1" alt="Space"> -->
               <img class="orbit-image" src="Makeover Monday/Crop/Week_42.png" alt="Space">
               <figcaption class="orbit-caption">2020 Week 42 - My first week of makeover Monday, also my first week with Tableau Public. Full Dashboard can be found <a href="https://public.tableau.com/profile/bryson4773#!/vizhome/20201009makeovermonday/HealthSpending2">here</a></figcaption>
             </figure>
